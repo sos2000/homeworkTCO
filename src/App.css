@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.mainDiv {
+  background-color: #2b5870;
+  display: flex;
+  width: 350px;
+  height: 500px;
+  margin: 5px auto;
+  border-radius: 5%;
+  flex-direction: column;
+  align-items: center;
+}
+.tempCircle {
+  width: 200px;
+  height: 200px;
+  background-color: #035aa6;
+  margin-top: 25px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 40px;
+  border: 3px solid white;
+}
+p {
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.addTemp {
+  width: 100px;
+  height: 100px;
+  background-color: #696868;
+  margin-top: 60px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 40px;
+  border: 2px solid white;
+}
+.removeTemp {
+  width: 100px;
+  height: 100px;
+  background-color: #696868;
+  margin-top: 60px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 40px;
+  border: 2px solid white;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
